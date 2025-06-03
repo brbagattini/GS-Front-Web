@@ -86,3 +86,37 @@ section p {
     font-size: 24px;
     margin: 18% 10%;
 }
+article{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    background-color: transparent;
+    width: 500px;
+    height: 300px;
+    margin: 2rem;
+    border-radius: 5rem;
+    font-size: 32px;
+    border-color: #E0200D;
+    color: #E0200D;
+}
+#btndoar{
+    background-color: #E0200D;
+    color: #fff;
+}
+div{
+    background-color: transparent;
+}
+#Titulodoacoes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+}
+#botoesdoacoes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
