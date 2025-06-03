@@ -1,0 +1,13 @@
+/* 60 #4EB1E0 */
+/* 30 #fff */
+/* 10 #E0200D */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #4EB1E0;
+}
+header{
+    background-color: #fff;
+    display: flex;
+}
