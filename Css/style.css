@@ -106,6 +106,12 @@ button{
     background-color: #E0200D;
     color: #fff;
 }
+#btnreceber:hover{
+    background-color: #ffeded;
+}
+#btndoar:hover{
+    background-color: #a51f13;
+}
 div{
     background-color: transparent;
 }
