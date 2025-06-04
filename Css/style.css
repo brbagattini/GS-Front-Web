@@ -147,3 +147,30 @@ main{
 .card h1, .card h4 {
     margin: 0px 10%;
 }
+#Objetivos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    background-color: #3051FF;
+    border-radius: 2rem;
+    width: 90%;
+    margin: 5%;
+}
+#Objetivos h1{
+    font-size: 64px;
+    background-color: #0D2CD0;
+    border-radius: 2rem;
+}
+#Objetivos h2{
+    margin-top: 3rem;
+    width: 90%;
+    margin: 5%;
+    background-color: #fff;
+    color: #0D2CD0;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 2rem;
+}
