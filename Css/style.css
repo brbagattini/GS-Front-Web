@@ -1,12 +1,15 @@
 /* #0D2CD0 */
 /* #fff */
-/* ##3051FF */
+/* #3051FF */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #0D2CD0;
+    background-color: transparent;
     font-size: medium;
+}
+body{
+    background-color: #0D2CD0;
 }
 header{
     display: flex;
@@ -23,14 +26,18 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: transparent;
 }
 
 nav a {
-    background-color: transparent;
     color: #fff;
     text-decoration: none;
     font-size: 16px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #Inicio {
     color:#fff;
@@ -72,4 +79,71 @@ nav a {
     position:relative;
     left: 30rem;
     bottom: 8rem;
+}
+#Tecnologias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+#primeiraparte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+#segundaparte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 4rem 4rem;
+}
+#primeiraparte .card {
+    width: 40%;
+    height: 25rem;
+}
+#segundaparte .card {
+    width: 40%;
+    height: 25rem;
+}
+#primeiraparte .card button{
+    margin-top: 5%;
+}
+#segundaparte .card button{
+    margin-top: 15%;
+}
+.card{
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #3051FF;
+}
+.card img {
+    background-color: #eee;
+    width: 100%;
+    border-radius: 2rem;
+}
+.card button {
+    border-radius: 2rem;
+    height: 40px;
+    width: 90%;
+    color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    margin: 5%;
+}
+.card h1{
+    font-size: 24px;
+}
+.card h4{
+    font-size: 16px;
+}
+.card h1, .card h4 {
+    margin: 0px 10%;
 }
