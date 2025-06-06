@@ -7,6 +7,9 @@
     font-weight: normal;
     font-style: normal;
 }
+html {
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -358,4 +361,52 @@ input::placeholder{
 }
 input{
     color: #777
+}
+#Como-funciona {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3051FF;
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+    color: #fff;
+    height: 80vh;
+    border-radius: 2rem;
+}
+#Como-funciona p{
+    font-size: 32px;
+    width: 90%;
+    margin-bottom: 5%;
+}
+#Como-funciona h1{
+    font-size: 32px;
+    margin-bottom: 5%;
+}
+#doaredoações{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+#doaredoações a{
+    color: #fff;
+    width: 30rem;
+    height: 12rem;
+    border: solid;
+    border-color: #fff;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+#doaredoações #Doar{
+    background-color: #eee;
+    border-color: #0D2CD0;
+    color: #3051FF;
 }
