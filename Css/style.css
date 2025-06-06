@@ -1,6 +1,12 @@
 /* #0D2CD0 */
 /* #fff */
 /* #3051FF */
+@font-face {
+    font-family: 'SinikaNegative';
+    src: url("./Font/SignikaNegative-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +14,13 @@
     background-color: transparent;
     font-size: medium;
 }
+h1,h2,h3{
+    font-family: 'SinikaNegative';
+}
+h4,h5,h6{
+    font-family:'Times New Roman', Times, sans-serif;
+}
+
 body{
     background-color: #0D2CD0;
 }
