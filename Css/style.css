@@ -215,7 +215,60 @@ main{
     flex-direction: row;
     border: solid 1px;
     border-color: #fff;
+    color: #fff;
+    border-radius: 1rem
 }
 .card2 p{
     width: 80%;
+    font-size: 24px;
+}
+#Beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5% 5%;
+    color: #fff;
+    gap: 3rem;
+}
+#Beneficios h1{
+    font-size: 64px;
+}
+#Beneficios p{
+    font-size: 24px;
+}
+#beneficiosparte2, #beneficiosparte1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#Beneficios .card2{
+    background-color: #0D2CD0;
+    width: 20rem;
+    height: 10rem;
+}
+
+#Beneficios .card2 p{
+    font-size: 20px;
+}
+.card3{
+    width: 20rem;
+    height: 10rem;
+    background-color: #3051FF;
+    border-radius: 1rem;
+    border: solid 1px;
+    border-color: #fff;
+    color: #fff;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.card3 img{
+    width: 5rem;
+    height: 5rem;
+}
+.card3 p{
+    width:10rem;
+    margin: 0 2rem;
 }
