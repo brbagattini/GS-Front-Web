@@ -138,9 +138,11 @@ main{
     background-color: #3051FF;
 }
 .card img {
-    background-color: #eee;
     width: 100%;
+    aspect-ratio: 5 / 2;
+    object-fit:contain;
     border-radius: 2rem;
+    background-color: #eee;
 }
 .card button {
     border-radius: 2rem;
