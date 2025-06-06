@@ -272,3 +272,77 @@ main{
     width:10rem;
     margin: 0 2rem;
 }
+#contato{
+    display: flex;
+    width: 90%;
+    margin: 5% 5%;
+    background-color: #3051FF;
+    border-radius: 2rem;
+}
+#contato #formulario{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 2rem;
+    gap: 10%;
+    padding: 2%;
+}
+#contato form{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #fff;
+    gap: 1rem;
+}
+#contato form input{
+    border-color: transparent;
+    border-bottom: solid;
+    font-size: 28px;
+    border-bottom-color: #3051FF;
+    height: 5rem;
+}
+#contato form button{
+    border-color: #3051FF;
+    color: #fff;
+    border-radius: 2rem;
+    width: 8rem;
+    background-color: #0D2CD0;
+    height: 3rem;
+}
+#contato #textocontato{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 60%;
+    height: 30rem;
+    color: #fff;
+    width: 50%;
+    padding: 2%;
+}
+#textocontato p{
+    font-size: 32px;
+}
+#textocontato h1{
+    font-size: 50px;
+}
+#subtitulocontato{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+#subtitulocontato button{
+    background-color: #fff;
+    border-color: transparent;
+    color: #0D2CD0;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+input::placeholder{
+    color: #bbb;
+}
+input{
+    color: #777
+}
