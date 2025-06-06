@@ -18,7 +18,40 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 const botaoMenu = document.getElementById('menu-toggle');
 const menu = document.querySelector('nav');
-
 botaoMenu.addEventListener('click', function () {
     menu.classList.toggle('mostrar');
+});
+let slideAtual = 0;
+const slides = document.querySelectorAll('#slideshow img');
+
+function trocarSlide() {
+  slides.forEach((img, i) => img.classList.remove('ativo'));
+  slideAtual = (slideAtual + 1) % slides.length;
+  slides[slideAtual].classList.add('ativo');
+}
+if (slides.length) {
+  slides[0].classList.add('ativo');
+  setInterval(trocarSlide, 3000);
+}
+if (!nome || !celular || !email || !mensagem) {
+  alert("Por favor, preencha todos os campos!");
+  return;
+}
+document.querySelectorAll(".tema").forEach(botao => {
+  botao.addEventListener("click", () => {
+    document.body.style.backgroundColor = botao.dataset.cor;
+  });
+});
+const botoesTema = document.querySelectorAll(".tema");
+
+botoesTema.forEach(botao => {
+  botao.addEventListener("click", () => {
+    const tema = botao.dataset.tema;
+
+    // Remove qualquer tema anterior
+    document.body.classList.remove("tema-azul", "tema-escuro", "tema-claro");
+
+    // Aplica o novo tema
+    document.body.classList.add(`tema-${tema}`);
+  });
 });
