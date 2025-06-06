@@ -46,7 +46,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin-top: 2rem
+    margin-top: 2rem;
 }
 #Inicio h1{
     font-size: 128px;
@@ -173,4 +173,49 @@ main{
     font-size: 24px;
     padding: 10px;
     border-radius: 2rem;
+}
+#Publico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Publicoparte2, #Publicoparte1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5% 5%;
+    gap: 5%;
+}
+#Publicoparte1 img, #Publicoparte1 .card2{
+    width: 40rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+#Publicoparte2 img, #Publicoparte2 .card2{
+    width: 27rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+.card2 button{
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 2rem;
+    border-color: transparent;
+    height: 2rem;
+}
+.card2{
+    background-color: #3051FF;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+    border-color: #fff;
+}
+.card2 p{
+    width: 80%;
 }
