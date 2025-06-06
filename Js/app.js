@@ -16,3 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
         alert("Agradecemos sua doação! Obrigado e tenha um ótimo dia");
     });
 });
+const botaoMenu = document.getElementById('menu-toggle');
+const menu = document.querySelector('nav');
+
+botaoMenu.addEventListener('click', function () {
+    menu.classList.toggle('mostrar');
+});
