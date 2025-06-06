@@ -1,4 +1,4 @@
-# 💧 Projeto GOTA
+# Projeto GOTA
 
 **De gota em gota, fazemos a diferença contra as enchentes.**
 
@@ -6,7 +6,7 @@ Este projeto tem como objetivo oferecer apoio e soluções tecnológicas para co
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Apresentação do problema social e ambiental das enchentes
 - Cadastro e acompanhamento de doações
@@ -20,17 +20,17 @@ Este projeto tem como objetivo oferecer apoio e soluções tecnológicas para co
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5**
 - **CSS3 (com media queries para responsividade)**
-- **JavaScript Vanilla**
+- **JavaScript**
 - **Fontes personalizadas via @font-face**
 - Estrutura modular e organizada por seções
 
 ---
 
-## 📱 Responsividade
+## Responsividade
 
 O layout se adapta automaticamente a diferentes tamanhos de tela:
 - Menu se transforma em hambúrguer no mobile
